@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
   get 'products/index'
 
+<<<<<<< HEAD
   post '/products' => 'products#add'
+=======
+  get 'products/add'
+>>>>>>> d1bc0effd73d1e56f79cd24a8cc13cfc305e06a0
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -19,6 +23,10 @@ Rails.application.routes.draw do
   #   resources :products
 
   # Example resource route with options:
+<<<<<<< HEAD
+=======
+    resources :products
+>>>>>>> d1bc0effd73d1e56f79cd24a8cc13cfc305e06a0
   #     member do
   #       get 'short'
   #       post 'toggle'
